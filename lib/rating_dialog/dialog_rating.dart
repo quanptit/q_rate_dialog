@@ -1,14 +1,6 @@
-import 'package:q_common_utils/base_ui_widget/general_dialog.dart';
-import 'package:q_common_utils/base_ui_widget/inkwell_button.dart';
-import 'package:q_common_utils/common_utils.dart';
+import 'package:q_common_utils/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:q_common_utils/edge_s.dart';
-import 'package:q_common_utils/l.dart';
-import 'package:q_common_utils/laguage_utils.dart';
-import 'package:q_common_utils/open_url_utils.dart';
-import 'package:q_common_utils/route_utils.dart';
-import 'package:q_common_utils/ui_utils.dart';
 import 'package:q_theme/q_theme.dart';
 
 import '../app_rate_utils.dart';

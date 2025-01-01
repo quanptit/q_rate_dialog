@@ -1,8 +1,8 @@
-import 'package:q_common_utils/common_utils.dart';
-import 'package:q_common_utils/l.dart';
+import 'package:q_common_utils/index.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:in_app_review/in_app_review.dart';
-import 'package:q_common_utils/preferences_utils.dart';
+
 
 import 'rating_dialog/dialog_rating.dart';
 

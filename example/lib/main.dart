@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:q_common_utils/l.dart';
-import 'package:q_common_utils/route_utils.dart';
-import 'package:q_common_utils/ui_utils.dart';
+
+import 'package:q_common_utils/index.dart';
+import 'package:q_common_utils/index.dart';
 import 'package:q_rate_dialog/rating_dialog/dialog_rating.dart';
 
 void main() {
