@@ -149,7 +149,7 @@ class _DialogRatingState extends State<DialogRating> {
           E.sizeBoxHeight_16,
           InkWellButton(
             onTap: () =>
-                OpenUrlUtils.openUrlWithExternalApplication(linkContract),
+                CommonUtils.openUrlWithExternalApplication(linkContract),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
