@@ -126,7 +126,7 @@ class _DialogRatingState extends State<DialogRating> {
               child: Text(
                 LanguagesUtils.getString("yes_sure", "Yes, sure!")
                     .toUpperCase(),
-                style: TextStyle(fontSize: 16),
+                style: const TextStyle(fontSize: 16),
               ),
             ),
           ],
@@ -162,7 +162,7 @@ class _DialogRatingState extends State<DialogRating> {
                 ),
                 Text(linkContract,
                     textAlign: TextAlign.center,
-                    style: TextStyle(
+                    style: const TextStyle(
                         fontSize: 16,
                         color: Colors.lightBlue,
                         decoration: TextDecoration.underline)),
@@ -174,7 +174,7 @@ class _DialogRatingState extends State<DialogRating> {
             onPressed: () => RouteUtils.backPress(context: context),
             label:
                 Text(LanguagesUtils.getString("Close", "Close").toUpperCase()),
-            icon: Icon(Icons.close_rounded),
+            icon: const Icon(Icons.close_rounded),
           )
         ],
       ),
@@ -203,8 +203,8 @@ class _DialogRatingState extends State<DialogRating> {
             allowHalfRating: false,
             itemCount: 5,
             itemSize: 43,
-            itemPadding: EdgeInsets.symmetric(horizontal: 2.0),
-            itemBuilder: (context, _) => Icon(
+            itemPadding: const EdgeInsets.symmetric(horizontal: 2.0),
+            itemBuilder: (context, _) => const Icon(
               Icons.star,
               color: Colors.amber,
             ),
